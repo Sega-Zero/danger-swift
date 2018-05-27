@@ -165,7 +165,7 @@ public struct GitHubUser: Decodable {
     // MARK: - Properties
 
     /// The UUID for the user organization.
-    public let id: Int
+    public let id: Int?
 
     /// The handle for the user or organization.
     public let login: String
