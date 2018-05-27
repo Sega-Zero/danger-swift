@@ -168,7 +168,7 @@ public struct GitHubUser: Decodable {
     public let id: Int?
 
     /// The handle for the user or organization.
-    public let login: String
+    public let login: String?
 
     /// The type of user: user or organization.
     public let userType: UserType
