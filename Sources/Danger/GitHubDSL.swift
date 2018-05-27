@@ -171,7 +171,7 @@ public struct GitHubUser: Decodable {
     public let login: String?
 
     /// The type of user: user or organization.
-    public let userType: UserType
+    public let userType: UserType?
 
 }
 
